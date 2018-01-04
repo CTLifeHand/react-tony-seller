@@ -31,6 +31,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+```
+https://doc.react-china.org/docs/installation.html#创建新应用
+npm install -g create-react-app
+create-react-app my-app
+
+cd my-app
+npm start
+```
+
 ```
 React入门项目 Seller
 项目整合了几个demo 比如TODOMVC 比如 Game 等等
