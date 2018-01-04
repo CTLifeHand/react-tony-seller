@@ -32,6 +32,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
+## 项目构建
+https://doc.react-china.org/docs/installation.html#创建新应用
+
+注意手动结合Router和React 
+当时没人Router4.0的资料 踩坑不少
+https://github.com/reacttraining/react-router/tree/master/packages/react-router-redux
+还整理了不少hashHistory和BrowserHistory的区别
+还有在create-react-app创建 scss支持和 less支持
+
 ```
 https://doc.react-china.org/docs/installation.html#创建新应用
 npm install -g create-react-app
@@ -39,8 +48,19 @@ create-react-app my-app
 
 cd my-app
 npm start
-```
 
+router
+http://reacttraining.cn/core/guides/redux
+
+
+redux
+http://www.redux.org.cn/index.html
+```
+npm install --save redux
+多数情况下，你还需要使用 React 绑定库和开发者工具。
+
+npm install --save react-redux
+npm install --save-dev redux-devtools
 ```
 React入门项目 Seller
 项目整合了几个demo 比如TODOMVC 比如 Game 等等
